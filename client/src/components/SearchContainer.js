@@ -47,7 +47,7 @@ const SearchContainer = () => {
                     <FormRow
                         type='text'
                         name='search'
-                        value={localSearch}
+                        defaultValue={localSearch}
                         handleChange={optimizedDebounce}
                     ></FormRow>
                     {/* search by status */}
